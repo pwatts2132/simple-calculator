@@ -1,0 +1,43 @@
+body {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+} 
+
+.calc-container {
+    width: 350px;
+    height: 500px;
+    background-color: skyblue;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.calc-screen-container {
+
+}
+
+.calc-button-container {
+
+}
+.utility-button {
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.operation-button {
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.input-button {
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
