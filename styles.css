@@ -1,8 +1,9 @@
 body {
-    background-color: grey;
+    background-color: #cadeef;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px;
     min-height: 100vh;
 } 
 
@@ -10,34 +11,65 @@ body {
     width: 350px;
     height: 500px;
     background-color: skyblue;
+    border: 2px solid;
+    border-color: #0784b5;
     border-radius: 20px;
     padding: 5px;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
-.calc-screen-container {
-
+.calc-screen {
+    height: 60px;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color:#0784b5;
+    padding: 2px;
+    margin: 5px;
+    background-color: #9bd4e4;
 }
 
-.calc-button-container {
-
-}
-.utility-button {
-    padding: 10px;
-    height: 50px;
-    width: 50px;
-    border-radius: 25px;
-}
-
-.operation-button {
-    padding: 10px;
-    height: 50px;
-    width: 50px;
-    border-radius: 25px;
+.calc-screen-text {
+    padding: 0px;
+    display: flex;
+    font-size: 40px;
+    color: white;
+    font-family: inherit;
+    justify-content: flex-end;
 }
 
-.input-button {
-    padding: 10px;
-    height: 50px;
-    width: 50px;
-    border-radius: 25px;
+.calc-button {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin: 2px;
+    border: 2px solid;
+    border-color: #0784b5;
+    fill: 	#9bd4e4;
+    cursor: pointer;
+    font-family: inherit;
+    background-color: #9bd4e4;
+    font-size: 20px;
+    color: white;
+}
+
+.calc-button:active {
+    opacity: 0.6;
+}
+
+#long-0 {
+    height: 80px;
+    width: 167px;
+    border-radius: 40px;
+    margin: 2px;
+    border: 2px solid;
+    border-color: #0784b5;
+    cursor: pointer;
+    font-family: inherit;
+    background-color: #9bd4e4;
+    font-size: 20px;
+    color: white;
+}
+
+#long-0:active {
+    opacity: 0.6;
 }
